@@ -23,7 +23,7 @@ function loadGrocery() {
     new Grocery("Salted Eggs", 1, "Dozen","Any"),
     new Grocery("Pork Skin", 4, "Bags","Lapid")]
 
-    // Loop through the array and add the data to the html
+    // List all my food!!!
     groceryList.forEach(function (i) {
         document.body.innerHTML += i.name + ": " + String(i.qty) + " " + i.unit + " " + i.brand + "<br>";
     });
